@@ -37,7 +37,6 @@ h2 {
     margin: 30px;
     border-radius: 20px;
     background-color: #a6b820;
-    transition: 300ms;
     display: inline-block;
     position:relative;
   }
@@ -53,6 +52,7 @@ h2 {
     margin-left: auto; 
     margin-right: 0;
     margin-right: 30px;
+    transition: 300ms;
 }
 
 /* .genderBox {
@@ -113,6 +113,7 @@ img {
 #grainMan {
     width: 30%;
     margin-right: 40px;
+    transition: 300ms;
 }
 
 .nav { display: inline-block;
@@ -175,6 +176,19 @@ a:hover{
     opacity: 1;
  }
 
+ @media only screen and (max-width: 1125px) {
+    #grainMan {
+        width: 20%;
+        transition: 300ms;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    #grainMan {
+        width: 0%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     
     .Box {
@@ -187,6 +201,7 @@ a:hover{
         margin-right: 0;
         padding: 0;
         margin: 0;
+        height: 800px;
     }
 
     #zeroBox {
@@ -222,15 +237,8 @@ a:hover{
         margin: 0 auto;
         position: absolute;
         bottom: 0;
-        right: 0;
-        top: 0;
-    }
-}
-
-@media only screen and (max-width: 1125) {
-    #grainMan {
-        position: absolute;
-        bottom: 0;
         left: 0;
+        top: 65%;
+        transition: 300ms;
     }
 }
