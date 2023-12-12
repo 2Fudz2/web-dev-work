@@ -69,7 +69,7 @@ p {
 
 } 
 
-footer{
+footer p {
     background-color: olive;
     font-size: 0.7em;
     text-align: center;
@@ -78,6 +78,18 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+footer{
+    background-color: olive;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff9e8;
+    padding: 16px;
+    bottom: 0;
+    width: 100%;
+    overflow-y: hidden;
+}
+
 footer a:link{
     color: #fff9e8;
     background-color: olive;
