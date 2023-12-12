@@ -6,7 +6,7 @@
         <script src="https://kit.fontawesome.com/b7a62fec83.js" crossorigin="anonymous"></script>
         <title>NLSAC</title>
         <link rel="stylesheet" href="page.css">
-        <script src="dynamic.js"defer></script>
+        
 
         <style id = parallax>
             
@@ -21,8 +21,8 @@
             <nav id="mainNav">
                 <ul>
                  <li class = "nav"><a href="index.html">Home</a></li>
-                 <li class = "nav"><a href="team.html">Meet our Team</a></li>
-                 <li class = "nav"><a href="goals.html">Goals</a></li>
+                 <li class = "nav"><a href="Teams.html">Meet our Team</a></li>
+                 <li class = "nav"><a href="Goals.html">Goals</a></li>
                  <li class = "nav active"><a href="contact.html">Sign Up</a></li>
                 </ul> 
              </nav>
@@ -35,9 +35,9 @@
            
         
       
-        <main>
+        <main class="box2">
             <h3>Contact Norwich Local Sustainability Advsiory Comitee</h3>
-            <div class="box">
+            <div>
                 <p class="form">
                     required information is marked with an asterisk (*)
                 </p>
@@ -54,13 +54,13 @@
                     <label for ="name"> Name* <i class="fa-solid fa-signature"></i> :</label>
                     <input id = "name" type="text" name="name" size = "25" required /> 
                     
-                    <label >Email* <i class="fa-regular fa-envelope"></i> :</label>
+                    <label >Email* <i class="fa-regular fa-envelope" alt="Email"></i> :</label>
                     <input id = "email" type="email" required/>
                     
                 
                     <label>Message <i class="fa-regular fa-message"></i> :</label>
                     <textarea id = "message" type="text" required> </textarea> 
-                    <button id = "submit">Send Now  <i class="fa-regular fa-paper-plane"></i> </button>
+                    <button id = "submit" type="submit">Send Now  <i class="fa-regular fa-paper-plane"></i> </button>
                     <div id = "render" ></div>
                     </fieldset>
                     </form>
