@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(241, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: aliceblue;
+    line-height: 200%;
+}
+body > h1{
+    text-align: center;
+    border: 10px solid green;
+    background-color: lightgray;
+    font-size: 50px;
+    line-height: 200%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    padding-left: 20px ; 
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+h3{
+    padding-left: 20px ; 
+    padding-right: 20px;
+    font-size: 25px;
+    text-align: left;
+}
+h4{
+    padding-left: 20px ; 
+    padding-right: 0px;
+    font-size: 25px;
+    
+}
+body > div > p{
+    padding-left: 230px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+a:hover{
+    color: purple;
+}
+body > div > p {
+    text-align: auto ;
+}
+.nav { 
+    display: inline-block;
+    padding: 24px;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 250px;
+}
+.container{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background: rgba(255,255,255,0) ;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    align-items: right;
+    background-position: right;
+    text-align: center;
+}
+a{
+    list-style: none;
+    display: inline block;
+    padding:13px 35px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: olive;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+a::after{
+    content: '';
+    background: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}  
+a:hover{
+    color: #fff;
+}
+ a:hover::after{
+    top: 50%;
+    opacity: 1;
+ }
+.team section{
+    margin-top: 75px;
+}
+.image img{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+object-fit: cover;
+margin-bottom: 10px;
+margin-top: -200px;
+padding: 20px ;
+}
+footer{ 
+    background-color: green; 
+    font-size: 0.7em; 
+    text-align: center; 
+    color: #fff9e8; 
+    padding: 16px; 
+    margin-top: 32px; 
+} 
+@media only screen and (max-width : 768px){
+    header > h1 {
+        display: inline-block;
+        height: 55px;
+        line-height: 50%;
+    }
+}
+

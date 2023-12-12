@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b7a62fec83.js" crossorigin="anonymous"></script>
+        <title>NLSAC</title>
+        <link rel="stylesheet" href="page.css">
+        <script src="indexdynamic.js"defer></script>
+        <script src="Forms.js"defer></script>
+        
+
+
+        
+        
+        <header>
+        <h1>NLSAC</h1>
+
+        <nav id="mainNav">
+            <ul>
+             <li class = "nav active"><a href="index.html">Home</a></li>
+             <li class = "nav"><a href="team.html">Meet our Team</a></li>
+             <li class = "nav"><a href="goals.html">Goals</a></li>
+             <li class = "nav"><a href="Forms.html">Sign Up</a></li>
+            </ul> 
+         </nav>
+        </header>
+    </head>
+    <body>
+        <script>
+        fetch('index.json')
+      .then(response => response.json()) // Parse the JSON response
+      .then(data => {
+        // Manipulate the fetched JSON data
+        console.log(data);
+      })
+
+    </script>
+
+    </body>
+    
+</html>

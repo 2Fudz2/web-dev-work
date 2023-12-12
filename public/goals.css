@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 25px;
+    font-family: sans-serif ;
+}
+header>h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 200%;
+    margin-left: 30px;
+    text-align: left;
+    width: 300px;
+}
+
+#zeroHunger {
+    padding-top: 20px;
+    width: 300px;
+}
+
+.allP {
+    padding-right: 10px;
+    width: 550px;
+}
+.Box {
+    width: 80%;
+    height: 50%;
+    border: 4px solid #262624;
+    padding: 0px;
+    margin: 30px;
+    border-radius: 20px;
+    background-color: #a6b820;
+    display: inline-block;
+    position:relative;
+  }
+
+#reducedBox {
+    background-color: #818a39;
+}
+
+#reducedInqual {
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+#reducedP {
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+
+}
+
+#genderEqual {
+    margin: 30px;
+}
+
+p {
+    margin-left: 30px;
+    padding-top: 20px;
+    margin: 30px;
+    font-size: 22px;
+
+} 
+
+footer{
+    background-color: #483519;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff9e8;
+    padding: 16px;
+    margin-top: 32px;
+}
+
+img {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    top: 25%;
+    right: 0px;
+    margin: 0 auto;
+    margin-right: 40px;
+    transition: 300ms;
+}
+
+#grainMan {
+    width: 30%;
+}
+
+.nav { display: inline-block;
+    padding: 24px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+nav{
+    background: rgba(255,255,255,0) ;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    align-items: right;
+    background-position: right;
+    text-align: center;
+    transition: 300ms;
+ 
+}
+ 
+a{
+    list-style: none;
+    display: inline block;
+    padding:13px 35px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: olive;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+    transition: 300ms;
+   
+}
+a::after{
+    content: '';
+    background: green;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+    transition: 300ms;
+ 
+}  
+a:hover{
+    color: #fff;
+}
+ a:hover::after{
+    top: 50%;
+    opacity: 1;
+ }
+
+ @media only screen and (max-width: 1125px) {
+    #grainMan {
+        width: 20%;
+        transition: 300ms;
+    }
+
+    #genderequality {
+        width: 20%;
+        transition: 300ms;
+    }
+
+    #reducedinequality {
+        width: 20%;
+        transition: 300ms;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    #grainMan {
+        width: 0%;
+    }
+
+    #reducedinequality {
+        width: 0%;
+    }
+
+    #genderequality {
+        width: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .Box {
+        width: 100%;
+        /* margin-right: 30px; */
+        padding-left: 0px;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding-right: 0;
+        margin-right: 0;
+        padding: 0;
+        margin: 0;
+        height: 800px;
+    }
+
+    #zeroBox {
+        margin-top: 50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    #reducedBox {
+        width: 100%;
+        /* margin-right: 30px; */
+        padding-left: 0px;
+        border-radius: 0px;
+        margin-left: 0px;
+        padding-right: 0;
+        margin-right: 0;
+        padding: 0;
+        margin: 0;
+        height: 850px;
+    }
+
+    #genderBox {
+        margin-bottom: 50px;
+        border-radius: 0px 0px 20px 20px;
+        height: 950px;
+    }
+
+    .allP {
+        text-align: center;
+        width: 90%;
+    }
+
+    #grainMan {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 65%;
+        transition: 300ms;
+    }
+
+    #reducedinequality {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 70%;
+        transition: 300ms;
+    }
+
+
+    #genderequality {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 65%;
+        transition: 300ms;
+    }
+    
+}
