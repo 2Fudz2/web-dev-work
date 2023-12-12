@@ -42,7 +42,7 @@ h2 {
   }
 
 #reducedBox {
-    background-color: olive;
+    background-color: #818a39;
 }
 
 #reducedInqual {
@@ -70,22 +70,13 @@ p {
 } 
 
 footer{
-    background-color: olive;
+    background-color: #483519;
     font-size: 0.7em;
     text-align: center;
     color: #fff9e8;
     padding: 16px;
-    bottom: 0;
-    width: 100%;
+    margin-top: 32px;
 }
-footer a:link{
-    color: #fff9e8;
-    background-color: olive;
-}
-    
-footer a:hover{
-    color: #e8fff9;
-}    
 
 img {
     margin-left: 30px;
