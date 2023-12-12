@@ -12,7 +12,7 @@ body{
 }
 body > h1{
     text-align: center;
-    border: 10px solid green;
+    border: 10px solid olive;
     background-color: lightgray;
     font-size: 50px;
     line-height: 200%;
@@ -127,7 +127,7 @@ margin-top: -200px;
 padding: 20px ;
 }
 footer{ 
-    background-color: green; 
+    background-color: olive; 
     font-size: 0.7em; 
     text-align: center; 
     color: #fff9e8; 
