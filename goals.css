@@ -25,16 +25,7 @@ h2 {
     width: 300px;
 }
 
-#zeroP {
-    padding-right: 10px;
-    width: 550px;
-}
-
-
-
-
-
-#genderP {
+.allP {
     padding-right: 10px;
     width: 550px;
 }
@@ -51,17 +42,7 @@ h2 {
   }
 
 #reducedBox {
-    width: 80%;
-    height: 50%;
-    border: 4px solid #262624;
-    padding: 0px;
-    margin: 30px;
-    border-radius: 20px;
     background-color: #818a39;
-    margin-left: auto; 
-    margin-right: 0;
-    margin-right: 30px;
-    transition: 300ms;
 }
 
 #reducedInqual {
@@ -185,10 +166,19 @@ a:hover{
         width: 20%;
         transition: 300ms;
     }
+
+    #reducedinequality {
+        width: 20%;
+        transition: 300ms;
+    }
 }
 
 @media only screen and (max-width: 925px) {
     #grainMan {
+        width: 0%;
+    }
+
+    #reducedinequality {
         width: 0%;
     }
 
@@ -235,12 +225,7 @@ a:hover{
         height: 950px;
     }
 
-    #zeroP {
-        text-align: center;
-        width: 90%;
-    }
-
-    #genderP {
+    .allP {
         text-align: center;
         width: 90%;
     }
@@ -256,6 +241,18 @@ a:hover{
         transition: 300ms;
     }
 
+    #reducedinequality {
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 65%;
+        transition: 300ms;
+    }
+
+
     #genderequality {
         width: 40%;
         text-align: center;
@@ -266,4 +263,5 @@ a:hover{
         top: 65%;
         transition: 300ms;
     }
+    
 }
