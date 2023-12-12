@@ -126,13 +126,22 @@ margin-bottom: 10px;
 margin-top: -200px;
 padding: 20px ;
 }
-footer{ 
-    background-color: green; 
-    font-size: 0.7em; 
-    text-align: center; 
-    color: #fff9e8; 
-    padding: 16px; 
-    margin-top: 32px; 
+footer{
+    background-color: olive;
+    font-size: 0.7em;
+    text-align: center;
+    color: #fff9e8;
+    padding: 16px;
+    bottom: 0;
+    width: 100%;
+}
+footer a:link{
+    color: #fff9e8;
+    background-color: olive;
+}
+    
+footer a:hover{
+    color: #e8fff9;
 } 
 @media only screen and (max-width : 768px){
     header > h1 {
