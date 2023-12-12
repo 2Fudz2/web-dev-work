@@ -14,26 +14,28 @@ MainIndex.innerHTML = `
         
 <main class="box1">
     
-    <h2  <%= index.homeBannerHeader1 %> >  </h2>
-    <p id = "post-response">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
-    <h3>Why is the NLSAC is important?</h3>
-    <ul class="">
-        <li>xxxx</li>
-        <li>xxxx</li>
-        <li>xxxx</li>
-        <li>xxxx</li>
-    </ul>
+    
+ 
+    <section id = "post-response"> NLSAC is a business that will provide information in order to benfit the future by giving in depth steps.
+    These steps will provide Sustainable living practices which will help reduce pollution but also conserve natural resources like water and energy. </section>
 <section>
     <article class="service">
-            <h3>Title</h3>
-            <p>xxxxxxxx</p>
+            <h3>What is NLSAC?</h3>
+            <p>NLSAC is a business that will provide information in order to benfit the future by giving in depth steps.
+            These steps will provide Sustainable living practices which will help reduce pollution but also conserve natural resources like water and energy.</p>
     </article>
 
     <article class="service">
-        <h3>Title</h3>
-        <p>xxxxxxxxxxxx</p>
+        <h3>What is sustainability?</h3>
+        <p>Sustainability is far from a new concept. Indigenous peoples have
+        practiced elements of sustainable living for generations by being in
+        tune with the natural environment and its limits, cycles, and
+        changes. This understanding is usually referred to as traditional
+        ecological knowledge, or the deep knowledge and beliefs about
+        relationships between people, plants, animals, natural phenomena,
+        landscapes, and timing of events in a specific ecosystem.</p>
     </article>
-    <p><button class="btn">Sign Up/Login</button></p>
+    
 
 
 </main>

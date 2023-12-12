@@ -129,6 +129,7 @@ nav a:hover::after{
     text-align: center;
     color: #fff9e8;
     padding: 16px;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
